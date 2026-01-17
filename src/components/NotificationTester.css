@@ -1,0 +1,139 @@
+.notification-tester {
+  min-height: 100vh;
+  padding: 80px 20px 40px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.tester-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.tester-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.platform-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.platform-info p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.token-info {
+  word-break: break-all;
+  font-size: 0.9rem !important;
+  color: #666 !important;
+}
+
+.test-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.test-section:last-child {
+  border-bottom: none;
+}
+
+.test-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.test-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.test-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.test-btn:active {
+  transform: translateY(0);
+}
+
+.haptic-buttons,
+.notification-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.info-text {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.info-section {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.info-section h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-section li {
+  padding: 0.5rem 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.info-section li strong {
+  color: #667eea;
+}
+
+@media (max-width: 768px) {
+  .tester-container {
+    padding: 1.5rem;
+  }
+
+  .tester-title {
+    font-size: 2rem;
+  }
+
+  .test-btn {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .haptic-buttons {
+    flex-direction: column;
+  }
+}
